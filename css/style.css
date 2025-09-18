@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(49, 172, 202);
+
   line-height: 40px;
   text-align:center
 }
@@ -10,17 +10,14 @@ h1 {
 h2 {
   font-size: 30px;
 }
-img {
-  width: 500px;
-  height: 500px;
-}
 a {
   font-size: 50px;
   font-variant: unset;
 }
 p {
-  font-size: 40px;
+  font-size: 30px;
 }
 li {
-  font-size: 50px;
+  text-align: left;
+  font-size: 30px;
 }
