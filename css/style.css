@@ -156,31 +156,6 @@ nav {
     background-color: #fff;
 }
 
-.service-button:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
-
-.button-image-wrapper {
-    width: 100%;
-    height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background-color: #eee;
-}
-
-.button-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-}
-
-.service-button:hover .button-image {
-    transform: scale(1.05);
-}
 
 .button-text {
     padding: 15px 10px;
@@ -370,14 +345,6 @@ hr {
     .hero-button {
         font-size: 16px;
         padding: 8px 20px;
-    }
-    .service-buttons-container {
-        gap: 15px;
-    }
-    .service-button {
-        width: 100%;
-        max-width: 320px;
-        margin: 0 auto;
     }
     .content-section {
         flex-direction: column;

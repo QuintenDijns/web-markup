@@ -4,22 +4,48 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contactformulier</title>
-<link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <nav>
-    <a href="index.html" class="logo">
-      <img src="images/img/logo.png" alt="FixPoint Logo">
-    </a>
-    <ul class="nav-links">
-      <li><a href="C:\Users\quint\Documents\GitHub\newrepo\page1.html">Phone Repair</a></li>
-      <li><a href="C:\Users\quint\Documents\GitHub\newrepo\page2.html">Tablets &amp; Small Devices</a></li>
-      <li><a href="C:\Users\quint\Documents\GitHub\newrepo\page3.html">Laptop &amp; Computer Repair</a></li>
-      <li><a href="C:\Users\quint\Documents\GitHub\newrepo\page4.html">Guides &amp; Parts</a></li>
-      <li><a href="contactpage.html" class="contact-btn">Contact Page</a></li>
-    </ul>
-  </nav>
 
-<p>jwirghnigbneruhbhudkgfbgyisrjnoneuchogbhubnsjhfgu</p>
+  <header>
+    <nav>
+      <a href="index.html" class="logo">
+        <img src="images/img/logo.png" alt="FixPoint Logo">
+      </a>
+      <ul class="nav-links">
+        <li><a href="C:\Users\quint\Documents\GitHub\newrepo\page1.html">Phone Repair</a></li>
+        <li><a href="C:\Users\quint\Documents\GitHub\newrepo\page2.html">Tablets &amp; Small Devices</a></li>
+        <li><a href="C:\Users\quint\Documents\GitHub\newrepo\page3.html">Laptop &amp; Computer Repair</a></li>
+        <li><a href="C:\Users\quint\Documents\GitHub\newrepo\page4.html">Guides &amp; Parts</a></li>
+        <li><a href="contactpage.html" class="contact-btn">Contact Page</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>Contactformulier</h1>
+      <h2>Velden gemarkeerd met * zijn verplicht.</h2>
+      <form>
+        <label for="name">Naam*</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">E-mailadres*</label>
+        <input type="email" id="email" name="email"required>
+
+        <label for="message">Bericht*</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Verstuur Bericht</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    © FIXPOINT MANUALS 2023 — Alle rechten voorbehouden.
+  </footer>
+
 </body>
 </html>
+
